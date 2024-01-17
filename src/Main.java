@@ -5,6 +5,8 @@ public class Main {
 
         String s= "hello world";
         LengthOfLastWord.lengthOfLastWord(s);
+        System.out.println( ClimbingStairs.climbStairs(45));
+
 
     }
 
