@@ -8,8 +8,8 @@ import java.util.regex.Pattern;
 public class Main {
 
 
-    public static void main(String[] args) throws FileNotFoundException {
-
+    public static void main(String[] args)  {
+        System.out.println(HappyNumber.isHappy(2));
 
 
     }
