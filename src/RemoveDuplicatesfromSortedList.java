@@ -15,6 +15,6 @@ public class RemoveDuplicatesfromSortedList {
 
     }
 
-    return temp;
+    return head;
     }
 }
