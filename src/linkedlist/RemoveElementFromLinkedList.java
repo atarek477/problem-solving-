@@ -1,3 +1,7 @@
+package linkedlist;
+
+import linkedlist.ListNode;
+
 public class RemoveElementFromLinkedList {
     public ListNode removeElements(ListNode head, int val) {
         if (head == null) {

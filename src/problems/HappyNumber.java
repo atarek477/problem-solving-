@@ -1,3 +1,5 @@
+package problems;
+
 import java.awt.desktop.ScreenSleepEvent;
 
 public class HappyNumber {

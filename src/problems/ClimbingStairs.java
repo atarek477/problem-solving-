@@ -1,3 +1,5 @@
+package problems;
+
 public class ClimbingStairs {
     public static int climbStairs(int n) {
         if (n == 1 || n == 2) {

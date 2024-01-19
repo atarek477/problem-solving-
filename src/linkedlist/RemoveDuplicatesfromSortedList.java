@@ -1,5 +1,6 @@
+package linkedlist;
 
-
+import linkedlist.ListNode;
 
 public class RemoveDuplicatesfromSortedList {
     public ListNode deleteDuplicates(ListNode head) {

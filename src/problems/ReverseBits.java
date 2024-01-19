@@ -1,3 +1,5 @@
+package problems;
+
 public class ReverseBits {
 
     int x= 0b00000010100101000001111010011100;
