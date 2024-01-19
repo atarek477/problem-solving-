@@ -9,7 +9,7 @@ public class Main {
 
 
     public static void main(String[] args)  {
-        System.out.println(HappyNumber.isHappy(2));
+   ReverseBits.reverseBits(0b00000010100101000001111010011100);
 
 
     }
