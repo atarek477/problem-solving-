@@ -1,13 +1,10 @@
-import problems.AddBinary;
-import problems.MergeSortedArray;
-import problems.Palindrome;
-import problems.ReverseBits;
+import problems.*;
 
 public class Main {
 
 
     public static void main(String[] args)  {
-        System.out.println(   Palindrome.isPalindrome("Marge, let's \\\"[went].\\\" I await {news} telegram."));
+        System.out.println(  BestTimetoBuyandSellStock.maxProfit(new int[]{7,1,3,5,4}));
 
 
     }
