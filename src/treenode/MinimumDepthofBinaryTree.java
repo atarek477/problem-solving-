@@ -4,7 +4,7 @@ public class MinimumDepthofBinaryTree {
     public int minDepth(TreeNode root) {
         if (root == null)
             return 0;
-        int h = 0;
+        int h;
         int left = minDepth(root.left);
         int right = minDepth(root.right);
         if (left == 0 || right == 0) {
