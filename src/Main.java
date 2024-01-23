@@ -4,7 +4,7 @@ public class Main {
 
 
     public static void main(String[] args)  {
-        System.out.println(  BestTimetoBuyandSellStock.maxProfit(new int[]{7,1,3,5,4}));
+        System.out.println(  SingleNumber.singleNumber(new int[]{-2,-2,-1,4,4,2,2}));
 
 
     }
