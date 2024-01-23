@@ -1,10 +1,18 @@
 import problems.*;
+import stack.MyStack;
 
 public class Main {
 
 
     public static void main(String[] args)  {
-        System.out.println(  SingleNumber.singleNumber(new int[]{-2,-2,-1,4,4,2,2}));
+        MyStack myStack= new MyStack();
+        myStack.push(1);
+
+
+
+
+        System.out.println(myStack.top());
+        System.out.println(myStack.pop());
 
 
     }
