@@ -1,11 +1,10 @@
-import problems.*;
-import stack.MyStack;
+import number.UglyNumber;
 
 public class Main {
 
 
     public static void main(String[] args)  {
-        System.out.println( MissingNumber.missingNumber(new int[]{3, 0, 1}));
+        System.out.println( UglyNumber.isUgly(14));
 
 
     }

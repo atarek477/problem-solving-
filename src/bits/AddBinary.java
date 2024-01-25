@@ -1,4 +1,4 @@
-package problems;
+package bits;
 
 public class AddBinary {
 

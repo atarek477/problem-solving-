@@ -1,4 +1,4 @@
-package problems;
+package string;
 
 public class LengthOfLastWord {
     public static int lengthOfLastWord(String s) {

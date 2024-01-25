@@ -1,4 +1,4 @@
-package problems;
+package string;
 
 public class Isomorphic {
     public static boolean isIsomorphic(String s, String t) {

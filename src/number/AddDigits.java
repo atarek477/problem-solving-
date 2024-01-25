@@ -1,4 +1,4 @@
-package problems;
+package number;
 
 public class AddDigits {
 

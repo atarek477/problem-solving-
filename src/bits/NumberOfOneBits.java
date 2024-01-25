@@ -1,4 +1,4 @@
-package problems;
+package bits;
 
 public class NumberOfOneBits {
     public int hammingWeight(int n) {

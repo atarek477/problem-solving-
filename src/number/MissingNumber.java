@@ -1,4 +1,4 @@
-package problems;
+package number;
 
 import java.util.Arrays;
 
