@@ -17,6 +17,21 @@ public class MissingNumber {
         return nums1[nums1.length-1]+1;
     }
 
+    public static int missingNumber(int[] nums) {
+
+        int [] nums1= new int[nums.length+1];
+        for (int i = 0; i < nums.length; i++)
+        {
+            nums1[nums[i]]=nums1[nums[i]]+1;
+        }
+        for (int i = 0; i <nums1.length-1 ; i++) {
+            if(nums1[i]==0){
+                return i;
+            }
+
+        }
+        return 0;
+    }
 
 
 
