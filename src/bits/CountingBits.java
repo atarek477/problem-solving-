@@ -1,7 +1,7 @@
 package bits;
 
 public class CountingBits {
-    public int[] countBits(int n) {
+    public int[] countBits1(int n) {
         int x[]= new int[n+1];
         x[0]=0;
         if(n==0){return x;}
@@ -17,6 +17,18 @@ public class CountingBits {
 
         return x;
     }
+
+    public int[] countBits(int n) {
+
+        int [] ones = new int[n+1];
+        for (int i = 0; i <=n ; i++) {
+            ones[i]= ones[i/2]+i%2;
+
+        }
+
+return ones;
+    }
+
 
 
 
