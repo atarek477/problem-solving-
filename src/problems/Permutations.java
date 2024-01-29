@@ -26,7 +26,6 @@ public class Permutations {
                 continue;
 
             list1.add(number);
-            Arrays.stream(nums).forEach(System.out::println);
             backtracking(list,list1, nums);
             list1.remove(list1.size()-1);
 
