@@ -1,6 +1,7 @@
 package arrays;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class ContainsDuplicate {
@@ -34,5 +35,17 @@ public class ContainsDuplicate {
         }
         return false;
     }
+
+
+
+//    public boolean containsDuplicate11(int[] nums) {
+//        HashMap<Integer, Integer> ans = new HashMap<>();
+//        for (int num : nums) {
+//            if (ans.containsKey(num) && ans.get(num) >= 1)
+//                return true;
+//            ans.put(num, ans.getOrDefault(num, 0) + 1);
+//        }
+//        return false;
+//    }
 
 }
