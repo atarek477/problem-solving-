@@ -1,11 +1,10 @@
 package number;
 
-import java.awt.desktop.ScreenSleepEvent;
 
 public class HappyNumber {
     public static boolean isHappy(int n) {
         int x;
-        int sum = 0;
+        int sum;
         int count =0;
     while (count!=100){
         sum=0;
