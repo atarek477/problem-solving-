@@ -1,4 +1,4 @@
-package problems;
+package string;
 
 import java.util.HashMap;
 

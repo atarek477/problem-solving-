@@ -1,9 +1,4 @@
-import number.RemoveDuplicatesFromSortedArray;
 import number.ReverseInt;
-import number.ThreeSum;
-import number.UglyNumber;
-import problems.WordPattern;
-import string.ReverseVowels;
 
 public class Main {
 
