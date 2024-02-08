@@ -11,7 +11,7 @@ public class SymmetricTree {
             return true;
         if (root==null||root1==null)
             return false;
-        return (root.val== root1.val)&&(Symmetry(root.left, root1.right))&&(Symmetry(root.left, root1.right))&&(Symmetry(root.right, root1.left));
+        return (root.val== root1.val)&&(Symmetry(root.left, root1.right))&&(Symmetry(root.right, root1.left));
 
     }
 
