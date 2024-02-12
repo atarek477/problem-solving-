@@ -1,4 +1,5 @@
 import arrays.ContainsDuplicateII;
+import bits.NumberComplement;
 import hashtable.FirstUniqueCharacterString;
 import number.PowerofTwo;
 import number.ReverseInt;
@@ -8,7 +9,7 @@ public class Main {
 
 
     public static void main(String[] args)  {
-        System.out.println(ReverseStringII.reverseStr("abcdef",2));
+        System.out.println(NumberComplement.findComplement(6));
 
 
 
