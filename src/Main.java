@@ -1,4 +1,5 @@
 import arrays.ContainsDuplicateII;
+import bits.BinaryWatch;
 import bits.NumberComplement;
 import hashtable.FirstUniqueCharacterString;
 import number.PowerofTwo;
@@ -9,7 +10,7 @@ public class Main {
 
 
     public static void main(String[] args)  {
-        System.out.println(NumberComplement.findComplement(6));
+        System.out.println(BinaryWatch.readBinaryWatch(1));
 
 
 
