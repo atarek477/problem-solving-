@@ -11,12 +11,7 @@ public class FindPolygonWithLargestPerimeter {
         for (int i = 0; i < nums.length ; i++) {
             sum=sum+nums[i];
         }
-
         sum=sum-nums[count];
-
-
-
-
 
         while(count>0&&nums[count]>=sum) {
             count--;
