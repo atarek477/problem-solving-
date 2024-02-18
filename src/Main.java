@@ -6,6 +6,7 @@ import bits.NumberComplement;
 import hashtable.FirstUniqueCharacterString;
 import number.PowerofTwo;
 import number.ReverseInt;
+import problems.GroupthePeopleGiventheGroupSizeTheyBelongTo;
 import problems.MinimumWindowSubstring;
 import string.DefangingIPAddress;
 import string.ReverseStringII;
@@ -17,7 +18,7 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(DefangingIPAddress.defangIPaddr("1.1.1.1"));
+        System.out.println(GroupthePeopleGiventheGroupSizeTheyBelongTo.groupThePeople(new int[]{2, 1, 3, 3, 3, 2}));
 
 
 
