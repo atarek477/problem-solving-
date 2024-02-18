@@ -7,6 +7,7 @@ import hashtable.FirstUniqueCharacterString;
 import number.PowerofTwo;
 import number.ReverseInt;
 import problems.MinimumWindowSubstring;
+import string.DefangingIPAddress;
 import string.ReverseStringII;
 
 import java.util.Scanner;
@@ -16,7 +17,7 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(MinimumWindowSubstring.minWindow("ADOBECODEBANC","ABC"));
+        System.out.println(DefangingIPAddress.defangIPaddr("1.1.1.1"));
 
 
 
