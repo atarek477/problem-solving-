@@ -10,6 +10,7 @@ import number.ReverseInt;
 import problems.GroupthePeopleGiventheGroupSizeTheyBelongTo;
 import problems.MinimumWindowSubstring;
 import string.DefangingIPAddress;
+import string.GroupAnagrams;
 import string.ReverseStringII;
 
 import java.util.Scanner;
@@ -19,7 +20,7 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(LeastNumberofUniqueIntegersAfterKRemovals.findLeastNumOfUniqueInts(new int[]{2,1,1,3,3,3},3));
+        System.out.println(GroupAnagrams.groupAnagrams(new String[]{"",""}));
 
 
 
