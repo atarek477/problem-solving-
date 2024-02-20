@@ -3,7 +3,7 @@ package string;
 import java.util.*;
 
 public class GroupAnagrams {
-    public static List<List<String>> groupAnagrams(String[] strs) {
+    public static List<List<String>> groupAnagrams1(String[] strs) {
 
         System.out.println("here");
         Map<String,String> hashMap = new HashMap<>();
@@ -39,6 +39,36 @@ public class GroupAnagrams {
             }
             list.add(list1);
         }
+        return list;
+    }
+
+
+    public static List<List<String>> groupAnagrams(String[] strs) {
+
+        Map<String,List<String>> hashMap = new HashMap<>();
+        List<List<String>> list= new ArrayList<>();
+
+        for (int i = 0; i <strs.length; i++) {
+            char[] charArray = strs[i].toCharArray();
+
+            Arrays.sort(charArray);
+
+            String sortedStr = new String(charArray);
+
+            if (hashMap.isEmpty() || !hashMap.containsKey(sortedStr)) {
+
+                hashMap.put(sortedStr,new ArrayList<>());
+
+            }
+            hashMap.get(sortedStr).add(strs[i]);
+        }
+
+        for (Map.Entry<String, List<String>> entry : hashMap.entrySet()) {
+            list.add(entry.getValue());
+
+            }
+
+
         return list;
     }
 }
