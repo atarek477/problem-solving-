@@ -2,6 +2,7 @@ import arrays.ContainsDuplicateII;
 import arrays.FindPolygonWithLargestPerimeter;
 import arrays.FurthestBuildingYouCanReach;
 import bits.BinaryWatch;
+import bits.BitwiseANDofNumbersRange;
 import bits.NumberComplement;
 import hashtable.FirstUniqueCharacterString;
 import hashtable.LeastNumberofUniqueIntegersAfterKRemovals;
@@ -20,8 +21,8 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(GroupAnagrams.groupAnagrams(new String[]{"",""}));
-
+        //System.out.println(BitwiseANDofNumbersRange.rangeBitwiseAnd(1,Integer.MAX_VALUE));
+        System.out.println(BitwiseANDofNumbersRange.rangeBitwiseAnd(1,Integer.MAX_VALUE));
 
 
 
