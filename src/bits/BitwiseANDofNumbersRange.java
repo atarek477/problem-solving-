@@ -3,7 +3,7 @@ package bits;
 public class BitwiseANDofNumbersRange {
 
 
-public static int rangeBitwiseAnd(int left ,int right){
+public static int rangeBitwiseAnd1(int left ,int right){
 
     StringBuilder stringBuilder= new StringBuilder();
     for (int i = 0; i <32 ; i++) {
@@ -22,6 +22,18 @@ public static int rangeBitwiseAnd(int left ,int right){
     }
 return Integer.parseInt(stringBuilder.toString(),2);
 }
+
+    public static int rangeBitwiseAnd(int left, int right) {
+       int count =0;
+       while(left != right ){
+           left>>=1;
+           right>>=1;
+           count++;
+
+       }
+       return left << count;
+    }
+
 
 
 }
