@@ -12,6 +12,7 @@ import number.ReverseInt;
 import problems.GroupthePeopleGiventheGroupSizeTheyBelongTo;
 import problems.MinimumWindowSubstring;
 import string.DefangingIPAddress;
+import string.ExcelSheetColumnTitle;
 import string.GroupAnagrams;
 import string.ReverseStringII;
 
@@ -22,7 +23,7 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(BitwiseANDofNumbersRange.rangeBitwiseAnd(1,Integer.MAX_VALUE));
+        System.out.println(ExcelSheetColumnTitle.convertToTitle(27));
 
 
 
