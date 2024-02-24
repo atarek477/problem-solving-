@@ -7,12 +7,14 @@ import bits.NumberComplement;
 import hashtable.FirstUniqueCharacterString;
 import hashtable.LeastNumberofUniqueIntegersAfterKRemovals;
 import hashtable.TeemoAttacking;
+import number.ConstructRectangle;
 import number.PowerofTwo;
 import number.ReverseInt;
 import problems.GroupthePeopleGiventheGroupSizeTheyBelongTo;
 import problems.MinimumWindowSubstring;
 import string.*;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -20,7 +22,7 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(ExcelSheetColumnNumber.titleToNumber("ZY"));
+        System.out.println(Arrays.toString(ConstructRectangle.constructRectangle(2)));
 
 
 
