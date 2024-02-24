@@ -2,8 +2,6 @@ package string;
 
 public class ExcelSheetColumnTitle {
     public static String convertToTitle(int columnNumber) {
-
-        String s= "";
         StringBuilder stringBuilder= new StringBuilder();
 
         if(columnNumber<=26){

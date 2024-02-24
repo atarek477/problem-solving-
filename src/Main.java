@@ -11,10 +11,7 @@ import number.PowerofTwo;
 import number.ReverseInt;
 import problems.GroupthePeopleGiventheGroupSizeTheyBelongTo;
 import problems.MinimumWindowSubstring;
-import string.DefangingIPAddress;
-import string.ExcelSheetColumnTitle;
-import string.GroupAnagrams;
-import string.ReverseStringII;
+import string.*;
 
 import java.util.Scanner;
 
@@ -23,7 +20,7 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(ExcelSheetColumnTitle.convertToTitle(27));
+        System.out.println(ExcelSheetColumnNumber.titleToNumber("ZY"));
 
 
 
