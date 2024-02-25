@@ -1,3 +1,4 @@
+import anysortingapproach.ValidPerfectSquare;
 import arrays.ContainsDuplicateII;
 import arrays.FindPolygonWithLargestPerimeter;
 import arrays.FurthestBuildingYouCanReach;
@@ -22,7 +23,7 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(Arrays.toString(ConstructRectangle.constructRectangle(2)));
+        System.out.println(ValidPerfectSquare.isPerfectSquare(16));
 
 
 
