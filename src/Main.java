@@ -14,6 +14,7 @@ import number.ReverseInt;
 import problems.GroupthePeopleGiventheGroupSizeTheyBelongTo;
 import problems.MinimumWindowSubstring;
 import string.*;
+import twopointer.MinimumLengthofStringAfterDeletingSimilarEnds;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -23,7 +24,7 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(ValidPerfectSquare.isPerfectSquare(16));
+        System.out.println(MinimumLengthofStringAfterDeletingSimilarEnds.minimumLength("aabccabba"));
 
 
 
