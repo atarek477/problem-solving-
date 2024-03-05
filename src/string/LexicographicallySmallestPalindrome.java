@@ -4,6 +4,7 @@ public class LexicographicallySmallestPalindrome {
     public String makeSmallestPalindrome(String s) {
 
         int count=s.length()-1;
+        System.out.println("here");
         StringBuilder stringBuilder= new StringBuilder(s);
 
         for (int i = 0; i <s.length()/2 ; i++) {
