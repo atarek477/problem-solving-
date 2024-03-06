@@ -12,6 +12,7 @@ import number.ConstructRectangle;
 import number.PowerofTwo;
 import number.ReverseInt;
 import problems.GroupthePeopleGiventheGroupSizeTheyBelongTo;
+import problems.JumpGame;
 import problems.MinimumWindowSubstring;
 import string.*;
 import twopointer.MinimumLengthofStringAfterDeletingSimilarEnds;
@@ -24,7 +25,7 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(MinimumLengthofStringAfterDeletingSimilarEnds.minimumLength("aabccabba"));
+        System.out.println(JumpGame.canJump(new int[]{10}));
 
 
 
