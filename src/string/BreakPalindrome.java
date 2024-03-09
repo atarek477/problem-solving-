@@ -1,4 +1,4 @@
-package problems;
+package string;
 
 public class BreakPalindrome {
 

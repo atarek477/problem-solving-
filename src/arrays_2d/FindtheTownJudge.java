@@ -1,4 +1,4 @@
-package arrays;
+package arrays_2d;
 
 public class FindtheTownJudge {
 

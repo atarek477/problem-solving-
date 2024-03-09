@@ -1,4 +1,4 @@
-package problems;
+package arrays_2d;
 
 import java.util.HashMap;
 import java.util.HashSet;
