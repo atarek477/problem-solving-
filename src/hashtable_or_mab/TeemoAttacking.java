@@ -1,6 +1,4 @@
-package hashtable;
-
-import java.util.HashSet;
+package hashtable_or_mab;
 
 public class TeemoAttacking {
 

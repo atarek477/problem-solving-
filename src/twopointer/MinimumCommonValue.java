@@ -12,11 +12,14 @@ public class MinimumCommonValue {
               point2++;
             else if (nums1[point1]<nums2[point2]) {
                 point1++;
-            }else {return nums1[point1];}
+            }else {
+                return nums1[point1];
+
+            }
 
 
         }
-return 0;
+return -1;
     }
 
 }
