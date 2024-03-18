@@ -87,4 +87,32 @@ public class StringCompression {
         return pointer;
     }
 
+    public static int compress1(char[] chars) {
+        if (chars == null || chars.length == 0) return 0;
+
+        int writePointer = 0; // Pointer for writing compressed characters
+        int count = 1; // Initialize count of current character
+
+        for (int i = 0; i < chars.length; i++) {
+            if (i + 1 < chars.length && chars[i] == chars[i + 1]) {
+                count++; // Increment count if current character is same as next character
+            } else {
+                chars[writePointer++] = chars[i]; // Write current character
+
+                if (count > 1) {
+                    // Write count as characters
+                    String countStr = String.valueOf(count);
+                    for (char c : countStr.toCharArray()) {
+                        chars[writePointer++] = c;
+                    }
+                }
+
+                count = 1; // Reset count for next character
+            }
+        }
+
+        return writePointer; // Return the length of the compressed array
+    }
+
+
 }
