@@ -1,0 +1,29 @@
+package linkedlist;
+
+import java.util.List;
+
+public class LinkedListCycleII {
+    public ListNode detectCycle(ListNode head) {
+
+        ListNode fast= head;
+        ListNode slow= head;
+        while(fast!=null&&fast.next!=null){
+
+            fast=fast.next.next;
+            slow=slow.next;
+            if(slow==fast){
+                fast=head;
+                while (slow!=fast){
+                    slow=slow.next;
+                    fast=fast.next;
+                }
+
+                return slow;
+
+
+            }
+        }
+        return null;
+    }
+
+}
