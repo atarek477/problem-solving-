@@ -8,27 +8,27 @@ public class EqualRowandColumnPairs {
     public static int equalPairs(int[][] grid) {
         int n = grid.length;
         HashMap<String, Integer> row = new HashMap<>();
-        String eachCol = "";
-        String eachRow = "";
+        StringBuilder eachCol = new StringBuilder();
+        StringBuilder eachRow = new StringBuilder();
         int count = 0;
 
 
-        for (int i = 0; i < n; i++) {
+        for (int[] ints : grid) {
             for (int j = 0; j < n; j++) {
-                eachRow = eachRow + grid[i][j] + ",";
+                eachRow.append(ints[j]).append(",");
 
             }
-            row.put(eachRow, row.getOrDefault(eachRow, 0) + 1);
-            eachRow = "";
+            row.put(eachRow.toString(), row.getOrDefault(eachRow.toString(), 0) + 1);
+            eachRow = new StringBuilder();
         }
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                eachCol = eachCol + grid[j][i] + ",";
+            for (int[] ints : grid) {
+                eachCol.append(ints[i]).append(",");
 
             }
-            count = count + row.getOrDefault(eachCol, 0);
+            count = count + row.getOrDefault(eachCol.toString(), 0);
 
-            eachCol = "";
+            eachCol = new StringBuilder();
         }
         return count;
     }
