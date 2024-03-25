@@ -1,5 +1,6 @@
 import hashtable_or_mab.EqualRowandColumnPairs;
 import problems.ZigzagConversion;
+import stack.DecodeString;
 import string.AddStrings;
 import string.StringCompression;
 
@@ -10,7 +11,7 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        System.out.println(EqualRowandColumnPairs.equalPairs(new int[][]{{11,1},{1,11}}));
+        System.out.println(DecodeString.decodeString("10[leetcode]"));
 
 
         HashMap<Integer,Integer>hashMap= new HashMap<>();
