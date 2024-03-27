@@ -36,6 +36,12 @@ public class KeyboardRow {
                 list.add(words[i]);
 
             count=0;
+            count=0;
+            System.out.println();
+
+            System.out.println();
+            System.out.println();
+            System.out.println();
 
 
         }
